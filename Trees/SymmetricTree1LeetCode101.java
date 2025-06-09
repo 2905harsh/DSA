@@ -8,7 +8,7 @@
 
 // In this method we will use queue where we will compare one node left child with other node right child and so on .
 
-// This is Leetcode Problem 101 & can be submittef there directly.
+// This is Leetcode Problem 101 & can be submitted there directly.
 
 public class SymmetricTree1LeetCode101 {
   class Solution {
