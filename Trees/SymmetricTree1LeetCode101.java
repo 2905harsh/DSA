@@ -24,7 +24,7 @@ public class SymmetricTree1LeetCode101 {
             TreeNode temp2 = queue.poll();
 
             // These 4 conditions check if both node we are comparing(one's left and other's right) are null or not.
-            // Aisa nahi hona chahiye ki ek node ka left null ho aur dusre ka right null na ho.
+            // Aisa nahi hona chahiye ki ek node null ho aur dursi null na ho.
 
             if(temp1.left==null && temp2.right!=null) return false;
             if(temp1.left!=null && temp2.right==null) return false;
