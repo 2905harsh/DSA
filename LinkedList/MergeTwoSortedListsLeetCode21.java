@@ -49,3 +49,4 @@ public class MergeTwoSortedListsLeetCode21 {
 
   }
 }
+// This is leetcode problem 21 and class Solution can be directly used in LeetCode submission .
