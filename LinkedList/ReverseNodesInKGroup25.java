@@ -13,7 +13,7 @@ public class ReverseNodesInKGroup25 {
             // prev - It is node that is just before the prev so that after reversing the k parts we can make links
             // curr - points to starting node of a particular group of length k .
             // end - poins to the ending node of a particular group of length k .
-            // nxt - it points to the next node of end . It tracks the the next element of end in orginal list beacuse after reversal we cannot                       find the node without it since links are breaked. 
+            // nxt - it points to the next node of end . It tracks the the next element of end in orginal list beacuse after reversal we cannot find the node without it since links are breaked. 
 
             ListNode curr = head;
             while(curr.next!=null){
