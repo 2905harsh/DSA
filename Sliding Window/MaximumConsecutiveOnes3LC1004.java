@@ -6,10 +6,9 @@
 // Both will start from 0th index and we will maintain the records of how many zeros we have in our subarray/window.
 // If the element at right(r) is not zero we will only move r or you can say expand the window size.
 
-// Main work will be there when the element at right is 0.
-// 1. So here we will check if numbers of zeros currently we have in our subarray is less than k , so we will simply increase the number of zeros we have in our subarray and move r to right or expand window. 
-// 2 . If the numbers of zeros we have in our subarray is already equal to k and we cannot 
-//     have more than that . So now we will move the left in such a way that it removes 1 zero from the window.
+// Major work will be there when the element at (r)right currently is 0.
+// Case 1. So here we will check if numbers of zeros currently we have in our subarray is less than k , so we will simply increase the number of zeros we have in our subarray and move r to right or expand window. 
+// Case 2.  If the numbers of zeros we have in our subarray is already equal to k then we cannot have zeros more than that . So now we will move the (l)left in such a way that it removes 1 zero from the window.
 
 class Solution {
     public int longestOnes(int[] nums, int k) {
