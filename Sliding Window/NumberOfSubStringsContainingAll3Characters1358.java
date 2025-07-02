@@ -10,9 +10,10 @@ public class NumberOfSubStringsContainingAll3Characters1358 {
         int r = 0;
         // This variable will maintain the final answer that we will return .
         int count = 0;
+      
 // At every element will simply add that element into the hash map with its index, and then we check whether the HashMap contain all the three characters or not. If it have all the three characters then definitely, we can make a suitable substring that will contain all three character, but if not, we'll move to the next character.
 
-// The main point occurs when we get the three elements in our hash map, then the minimum value from hash map will be the starting index of our suitable substring.Also, the indexes which is before the starting index of our correct substring, can also contribute to make a correct substring .So we derive a simple mathematical formula to add all these substring is we can just simply count the (minimum value of HashMap + 1) .It ensures that you have selected the all the previous indexes that can make suitable substring.
+// The main point occurs when we get the three elements in our hash map, then the minimum value from hash map will be the starting index of our suitable substring.Also, the indexes which is before the starting index of our correct substring, can also contribute to make a correct substring.So we derive a simple mathematical formula to add all these substring is we can just simply count the (minimum value of HashMap + 1) .It ensures that you have selected the all the previous indexes that can make suitable substring.
 // For Eg
 // b b a c b a
 // 0 1 2 3 4 5 
