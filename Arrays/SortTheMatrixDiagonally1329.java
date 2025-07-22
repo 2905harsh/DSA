@@ -1,5 +1,5 @@
 // For every diagonal the value of i-j remains constant.
-// We will make the every unique i-j value as a key in hashmap .
+// We will make the every unique i-j value as a key in hashmap and its corresponding values will be the list of all elements that lie on diagonal
 class Solution {
     public int[][] diagonalSort(int[][] mat) {
         HashMap<Integer,List<Integer>> map = new HashMap<>();
