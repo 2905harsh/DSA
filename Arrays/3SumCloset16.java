@@ -3,10 +3,10 @@ class Solution {
         // Since we do not have to return the indices we can mess up the indices.
         // Sort the array.
         Arrays.sort(nums);
-        int closestSum = nums[0] + nums[1] + nums[2]; // Initialize closest sum with the sum of the first three elements
+        int closestSum = nums[0] + nums[1] + nums[2]; // Initialize closest sum with the sum of the first three elements 
 
         for (int i = 0; i <= nums.length - 3; i++) { // length-3 because everytime we need atleast 3 elements in our window.
-            // i will be fixed and j and k will move.
+            // i will be fixed and j and k will move j moves forward and k moves backward.
             int j = i + 1;
             int k = nums.length - 1;
 
