@@ -28,3 +28,15 @@ class Solution {
         }
     }
 }
+
+/* Why the name “Dutch National Flag Problem”?
+
+The problem involves sorting an array of three distinct elements — typically represented as:
+	•	0 → Red
+	•	1 → White
+	•	2 → Blue
+
+These map to the colors of the Dutch flag, which has three horizontal stripes in the order:
+
+Red (top) → White (middle) → Blue (bottom)🇳🇱 
+*/
