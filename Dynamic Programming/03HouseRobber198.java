@@ -1,4 +1,4 @@
-// simple recursion (This will TLE at some test cases)
+// Simple Recursion (This will TLE at some test cases)
 class Solution {
     public int rob(int[] nums) {
       //func(n) signifies maximum amount of money robbed between house 0 to house n without alerting the police.
@@ -12,6 +12,7 @@ class Solution {
     }
 }
 
+--------------------------------------------------------
 // Recursion + Memoization
 class Solution {
 
@@ -38,6 +39,7 @@ class Solution {
 */
 
 
+--------------------------------------------------------
 // Tabulation
 class Solution {
     public int rob(int[] nums) { 
@@ -53,17 +55,15 @@ class Solution {
         dp[i] = Math.max(pick,dntpick);
       }
       return dp[nums.length-1];
-
-        
     }
 }
-
 /* 
   * Complexity
 	•	Time: O(n)
 	•	Space: O(n) because of dp[].
 */
 
+--------------------------------------------------------
 // Space Optimization
 class Solution {
     public int rob(int[] nums) { 
@@ -80,13 +80,11 @@ class Solution {
         prev1 = curr;
       }
       return prev1;
-
-        
-    }
+   }
 }
 /*
  * ⚡ Complexity
 	•	Time: O(n)
 	•	Space: O(1) (optimal)
  */
-
+--------------------------------------------------------
