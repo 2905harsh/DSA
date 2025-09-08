@@ -1,3 +1,5 @@
+// No-Zero integer is a positive integer that does not contain any 0 in its decimal representation.
+// Not allowed X 10 20 101 2003 
 class Solution {
     public int[] getNoZeroIntegers(int n) {
         int a = 1;
